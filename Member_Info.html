@@ -5,22 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-          background-color: lightblue;
-        }
-        
-        #first {
-          color: red;
-        }
-        #second {
-          color: red;
-        }
-        
-        </style>
-    </head>
+    <link href="Member_Info.css" rel="stylesheet">    
+
+    <script src="Member_Info.js" defer></script>
+  
+</head>
 <body>
-    <table border="1">
+    <form action="sample.jsp" method="post">
+        <input type="button" onclick="clickme()" value="change String">
+    </form>
+    
+    <p id="demo">no text</p>
+    <button type="button"  onclick='clickme()'> click me</button></br>
+
+    <table border="1" id="member_info_table" >
         <tr>
             <th>Month</th>
             <th>Savings</th>
@@ -34,5 +32,6 @@
             <td id="second">$80</td>
         </tr>
     </table>
+    
 </body>
 </html>

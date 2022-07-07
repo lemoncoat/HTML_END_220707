@@ -1,0 +1,15 @@
+body {
+    background-color: lightblue;
+}
+
+#first {
+    color: red;
+}
+
+#second {
+    color: white;
+}
+
+#member_info_table {
+    border-style: dashed;
+}

@@ -9,7 +9,7 @@ start 2022/07/04 ~ 2022/12/28
 Details can be written in Korean But keep the format staight
 
 ```
-2022. 07. 07. PM 04:00
+20XX. X. XX. AM/PM xx:xx
 --------------------------------------
 ADD
 -
